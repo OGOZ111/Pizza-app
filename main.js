@@ -41,8 +41,6 @@ total = sum + topcount
 
 
 document.getElementById("log").innerHTML = "Total: " + total + "€ " + addon;
-
-
 } 
 
 }
