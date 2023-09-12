@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="stylesheet">
+    <title>Document</title> 
+    
+</head>
+<body>
+  <!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="#home" class="active">Order here!</a>
+  </div>
+
+  <!-- Left-aligned links (default) -->
+  <a href="#news">Menu</a>
+  <a href="#contact">Contact</a>
+
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="#search">Apply</a>
+    <a href="#about">About</a>
+  </div>
+
+</div>
+
+
+  <div class="dark fire">
+        <h2 class="Blazing" contenteditable="true">ORDER BELOW</h2>
+  </div>
+
+
+<form>
+</div>
+      <label for="id-name">
+        Name
+      </label>
+      <input id="id-name"
+           type="text"
+           size="30">
+      </label>
+      <label for="id-delivery">
+        Delivery Method
+      </label>
+      <select id="id-delivery">
+        <option value="0.00">
+          Eat in 
+        </option>
+        <option value="0.00">
+          Pickup
+        </option>
+        <option value="5.00">
+            Delivery home, +5€
+        </option>
+      </select>
+      <fieldset>
+        <legend>
+          Pizza Size
+        </legend>
+        <label>
+          <input id="choice1"
+               name="firstsel"
+               type="radio"
+               value="7.50">
+          
+                2 servings for 7,50€
+              
+        </label>
+        <label>
+          <input id="choice2"
+               name="firstsel"
+               type="radio"
+               value="10.50">
+          
+               4 servings for 10,50€
+              
+        </label>
+        <label>
+          <input id="choice3"
+                 name="firstsel"
+                 type="radio"
+                 value="12.50">
+          
+               6 servings for 12,50€
+              
+        </label>
+
+        <label>
+            <input id="choice4"
+                 name="firstsel"
+                 type="radio"
+                 value="15.50">
+            
+                 8 servings for 15,50€
+                
+          </label>
+
+      </fieldset>
+      <fieldset>
+        <legend>
+          Toppings (first four are free, after that each +0,5€)
+        </legend>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Sausage
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Pepperoni
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Mushrooms
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Onions
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Green Peppers
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Back Olives
+              
+        </label>
+        <label>
+          <input name="topping1"
+               type="checkbox"
+               value="0.50"
+               id="TT">
+          
+                Extra cheese
+              
+        </label>
+        <label>
+            <input name="topping1"
+                 type="checkbox"
+                 value="0.50"
+                 id="TT">
+            
+                  Smetana
+                
+          </label>
+          <label>
+            <input name="topping1"
+                 type="checkbox"
+                 value="0.50"
+                 id="TT">
+            
+                  Spicy Sauce
+                
+          </label>
+          <label>
+            <input name="topping1"
+                 type="checkbox"
+                 value="0.50"
+                 onchange=""
+                 id="TT">
+            
+                  Banana
+                
+          </label>
+      </fieldset>
+      
+
+      <div id="log">TOTAL:</div>
+
+
+
+    </form>
+    
+      <input id="button"
+           type="submit"
+           value="Submit my order!"
+           onclick="fillform()">
+
+          
+
+
+
+
+<script src="main.js"></script>
+    
+</body>
+</html>
