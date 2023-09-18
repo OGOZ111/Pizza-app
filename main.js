@@ -1,4 +1,3 @@
-/* document.getElementById('button').onclick = */
 const form = document.querySelector('form')
 
 function fillform(event){
