@@ -45,6 +45,7 @@ document.getElementById("log").innerHTML = "Total: " + total + "€ " + addon;
 
 }
 
+
 }
 
 form.addEventListener('input', fillform)
