@@ -14,10 +14,14 @@ body {background-color: rgb(84, 171, 179);
 
 header {
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
+    align-items: center;}
+
+    .bg {
+        background-color: aliceblue;
+    }
 
 li {
     display: inline-block;
@@ -25,6 +29,10 @@ li {
 
 section, footer, header {
     padding: 1rem;
+}
+
+section {
+    scroll-margin-top: 60px;
 }
 
 p {
